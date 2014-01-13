@@ -1,0 +1,31 @@
+﻿.box  {
+	position:absolute;
+	width:30px;
+	height:30px;
+	border: 1px solid #000000;
+	background: url(field.png);
+}
+
+.sea {
+	background-position: 0 0px;
+}
+.current_shipped {
+	background-position: 0 -30px;
+}
+.shipped {
+	background-position: 0 -60px;
+}
+.dotted {
+	background-position: 0 -90px;
+}
+.injured {
+	background-position: 0 -120px;
+}
+.killed {
+	background-position: 0 -150px;
+}
+
+#messages {
+	position:absolute;
+	top: 350px;
+}
